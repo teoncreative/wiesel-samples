@@ -1,0 +1,632 @@
+{
+  "asset_handle": "4757f268-7f98-4b6a-8e12-8f96c950231b",
+  "entities": [
+    {
+      "MeshCollider": {
+        "collider_handle": "6c01b764-7e87-4aee-816b-64a49808d968",
+        "collision_group": 1,
+        "is_one_way": false
+      },
+      "Model": {
+        "asset_handle": "17dcd99f-718f-4f69-b40c-9776f7a4d174",
+        "enable_rendering": true,
+        "material_slots": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "receive_shadows": true
+      },
+      "RigidBody": {
+        "angular_damping": 0.05000000074505806,
+        "friction": 0.5,
+        "linear_damping": 0.0,
+        "lock_position_x": true,
+        "lock_position_y": true,
+        "lock_position_z": true,
+        "lock_rotation_x": true,
+        "lock_rotation_y": true,
+        "lock_rotation_z": true,
+        "mass": 1.0,
+        "restitution": 0.0,
+        "type": 0
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.05799001455307007,
+          -0.12458330392837524
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      },
+      "name": "Sponza",
+      "uuid": "83119c9a-a343-46bd-8053-0c6b5fd47f10"
+    },
+    {
+      "LightPoint": {
+        "ambient": 0.20000000298023224,
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "constant": 1.0,
+        "density": 1.0,
+        "diffuse": 1.0,
+        "exp": 0.03200000151991844,
+        "linear": 0.09000000357627869,
+        "specular": 0.8500000238418579
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          5.873263359069824,
+          2.0,
+          0.033414602279663086
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "name": "Red Light",
+      "uuid": "65b34a86-d078-4d5e-8145-39479252e7da"
+    },
+    {
+      "LightDirect": {
+        "ambient": 0.20000000298023224,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "density": 1.0,
+        "diffuse": 1.0,
+        "specular": 0.8500000238418579
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "name": "Directional Light",
+      "uuid": "82253d8e-1067-456a-8605-7a80f87b99a1"
+    },
+    {
+      "Behaviors": [
+        {
+          "fields": {
+            "camRotX": 0.0,
+            "camRotY": 0.0,
+            "jumpForce": 8.0,
+            "mouseSensitivity": 2.0,
+            "moveSpeed": 5.0
+          },
+          "name": "PlayerScript"
+        }
+      ],
+      "Model": {
+        "asset_handle": "00000000-0000-4000-8000-000000000005",
+        "enable_rendering": true,
+        "material_slots": [
+          {
+            "overrides": {
+              "color_tint": [
+                1.0,
+                1.0,
+                1.0,
+                0.9960784316062927
+              ],
+              "metallic": 0.0,
+              "roughness": 0.5,
+              "specular": 0.492000013589859
+            }
+          }
+        ],
+        "receive_shadows": true
+      },
+      "RigidBody": {
+        "angular_damping": 0.05000000074505806,
+        "friction": 0.5,
+        "linear_damping": 0.5,
+        "lock_position_x": false,
+        "lock_position_y": false,
+        "lock_position_z": false,
+        "lock_rotation_x": true,
+        "lock_rotation_y": true,
+        "lock_rotation_z": true,
+        "mass": 1.0,
+        "restitution": 0.0,
+        "type": 2
+      },
+      "SphereCollider": {
+        "collision_group": 1,
+        "is_one_way": false,
+        "is_trigger": false,
+        "offset": [
+          0.0,
+          -0.4000000059604645,
+          0.0
+        ],
+        "radius": 0.6000000238418579
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          1.0079188346862793,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          0.9999365210533142
+        ]
+      },
+      "name": "Player",
+      "uuid": "d29a222c-cc29-4d17-a642-316034ab1e3c"
+    },
+    {
+      "Behaviors": [],
+      "Camera": {
+        "background_color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "enabled": true,
+        "far_plane": 1000.0,
+        "field_of_view": 60.0,
+        "near_plane": 0.30000001192092896,
+        "ortho_size": 5.0,
+        "projection_mode": 0,
+        "viewport_size": [
+          2560.0,
+          1440.0
+        ]
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          -2.421438694000244e-08,
+          1.0256073474884033,
+          0.6529859900474548
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          0.9999483823776245,
+          0.9999644160270691,
+          0.9999662637710571
+        ]
+      },
+      "name": "Camera",
+      "parent": "d29a222c-cc29-4d17-a642-316034ab1e3c",
+      "uuid": "8ba6a947-9196-437f-a930-a5da5e8560a8"
+    },
+    {
+      "Canvas": {
+        "alignment": 0,
+        "direction": 0,
+        "end_spacing": 0.0,
+        "render_mode": 0,
+        "sort_order": 0,
+        "spacing": 0.0,
+        "start_spacing": 0.0
+      },
+      "CanvasScaler": {
+        "match_width_or_height": 1.0,
+        "reference_pixels_per_unit": 100.0,
+        "reference_resolution": [
+          1280.0,
+          720.0
+        ],
+        "scale_mode": 1
+      },
+      "RectangleTransform": {
+        "anchor": 0,
+        "padding": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pivot": 0,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "size_mode_x": 0,
+        "size_mode_y": 0
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          16.94907569885254
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "name": "Settings Canvas",
+      "uuid": "76b8fb05-7e03-4986-9925-b28d2209f92f"
+    },
+    {
+      "RectangleTransform": {
+        "anchor": 0,
+        "padding": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pivot": 0,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "size_mode_x": 0,
+        "size_mode_y": 0
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "UIDocument": {
+        "document": "716be8e8-087c-4acc-8ab9-209d23cb2f5d",
+        "visible": true
+      },
+      "name": "HUD",
+      "parent": "76b8fb05-7e03-4986-9925-b28d2209f92f",
+      "uuid": "a282919c-c8a6-4a7c-a59d-4023692a629e"
+    },
+    {
+      "Behaviors": [
+        {
+          "name": "SettingsScript"
+        }
+      ],
+      "RectangleTransform": {
+        "anchor": 0,
+        "padding": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pivot": 0,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "size_mode_x": 0,
+        "size_mode_y": 0
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          -13.931892395019531
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "UIDocument": {
+        "document": "edd8ba14-df38-4ee3-b47c-7a28411ce2a2",
+        "visible": true
+      },
+      "name": "Settings",
+      "parent": "76b8fb05-7e03-4986-9925-b28d2209f92f",
+      "uuid": "160f8c7f-d848-46d0-b4d1-f2c5931f8760"
+    },
+    {
+      "LightPoint": {
+        "ambient": 0.20000000298023224,
+        "color": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "constant": 1.0,
+        "density": 1.0,
+        "diffuse": 1.0,
+        "exp": 0.03200000151991844,
+        "linear": 0.09000000357627869,
+        "specular": 0.8500000238418579
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          -7.239781379699707,
+          2.0,
+          0.033414602279663086
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "name": "Green Light",
+      "uuid": "f8d03d9a-eefa-4a7c-aa5e-0c66b8cd059f"
+    },
+    {
+      "LightPoint": {
+        "ambient": 0.20000000298023224,
+        "color": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "constant": 1.0,
+        "density": 1.0,
+        "diffuse": 1.0,
+        "exp": 0.03200000151991844,
+        "linear": 0.09000000357627869,
+        "specular": 0.8500000238418579
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          2.0,
+          0.033414602279663086
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "name": "Blue Light",
+      "uuid": "45a42fb7-bce2-4837-9f6e-d7b77e30781d"
+    }
+  ]
+}

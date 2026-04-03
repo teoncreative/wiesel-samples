@@ -1,0 +1,113 @@
+{
+  "handle": "edd8ba14-df38-4ee3-b47c-7a28411ce2a2",
+  "properties": {
+    "events": [
+      "toggle_vsync",
+      "toggle_ssao",
+      "toggle_bloom",
+      "toggle_motion_blur",
+      "toggle_shadows",
+      "toggle_rt_shadows",
+      "apply",
+      "cancel"
+    ],
+    "variables": [
+      {
+        "default": "false",
+        "mode": 1,
+        "name": "vsync",
+        "type": 3
+      },
+      {
+        "default": "true",
+        "mode": 1,
+        "name": "ssao",
+        "type": 3
+      },
+      {
+        "default": "false",
+        "mode": 1,
+        "name": "bloom",
+        "type": 3
+      },
+      {
+        "default": "false",
+        "mode": 1,
+        "name": "motion_blur",
+        "type": 3
+      },
+      {
+        "default": "true",
+        "mode": 1,
+        "name": "shadows",
+        "type": 3
+      },
+      {
+        "default": "false",
+        "mode": 1,
+        "name": "rt_supported",
+        "type": 3
+      },
+      {
+        "default": "false",
+        "mode": 1,
+        "name": "rt_shadows",
+        "type": 3
+      },
+      {
+        "default": "0",
+        "mode": 0,
+        "name": "aa_mode",
+        "type": 0
+      },
+      {
+        "default": "80",
+        "mode": 0,
+        "name": "master_volume",
+        "type": 0
+      },
+      {
+        "default": "60",
+        "mode": 0,
+        "name": "music_volume",
+        "type": 0
+      },
+      {
+        "default": "100",
+        "mode": 0,
+        "name": "sfx_volume",
+        "type": 0
+      },
+      {
+        "default": "50",
+        "mode": 0,
+        "name": "sensitivity",
+        "type": 0
+      },
+      {
+        "default": "3",
+        "mode": 0,
+        "name": "shadow_quality",
+        "type": 0
+      },
+      {
+        "default": "16",
+        "mode": 0,
+        "name": "aniso",
+        "type": 0
+      },
+      {
+        "default": "0",
+        "mode": 0,
+        "name": "texture_quality",
+        "type": 0
+      },
+      {
+        "default": "90",
+        "mode": 0,
+        "name": "fov",
+        "type": 0
+      }
+    ]
+  }
+}

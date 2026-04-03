@@ -1,0 +1,177 @@
+<rml>
+<head>
+    <link type="text/rcss" href="radio-progress-test.rcss"/>
+    <title>Radio &amp; Progress Test</title>
+</head>
+<body>
+    <div class="overlay">
+        <div class="test-panel">
+
+            <div class="header">
+                <h1>Radio Buttons &amp; Progress Bars</h1>
+            </div>
+
+            <div class="content">
+                <form>
+
+                <!-- Radio Buttons -->
+                <div class="section-title">Radio Buttons</div>
+
+                <div class="setting-row">
+                    <div class="setting-label">Difficulty</div>
+                    <div class="setting-value">
+                        <label><input type="radio" name="difficulty" value="easy"/> Easy</label>
+                        <label><input type="radio" name="difficulty" value="normal" checked/> Normal</label>
+                        <label><input type="radio" name="difficulty" value="hard"/> Hard</label>
+                        <label><input type="radio" name="difficulty" value="nightmare"/> Nightmare</label>
+                    </div>
+                </div>
+
+                <div class="setting-row">
+                    <div class="setting-label">Render Mode</div>
+                    <div class="setting-value">
+                        <label><input type="radio" name="render_mode" value="deferred" checked/> Deferred</label>
+                        <label><input type="radio" name="render_mode" value="forward"/> Forward</label>
+                        <label><input type="radio" name="render_mode" value="raytraced"/> Ray Traced</label>
+                    </div>
+                </div>
+
+                <div class="setting-row">
+                    <div class="setting-label">Shadow Quality</div>
+                    <div class="setting-value">
+                        <label><input type="radio" name="shadow_quality" value="off"/> Off</label>
+                        <label><input type="radio" name="shadow_quality" value="low"/> Low</label>
+                        <label><input type="radio" name="shadow_quality" value="medium"/> Medium</label>
+                        <label><input type="radio" name="shadow_quality" value="high" checked/> High</label>
+                        <label><input type="radio" name="shadow_quality" value="ultra"/> Ultra</label>
+                    </div>
+                </div>
+
+                <div class="setting-row">
+                    <div class="setting-label">Audio Output</div>
+                    <div class="setting-value">
+                        <label><input type="radio" name="audio_output" value="stereo" checked/> Stereo</label>
+                        <label><input type="radio" name="audio_output" value="surround"/> Surround 5.1</label>
+                        <label><input type="radio" name="audio_output" value="mono"/> Mono</label>
+                    </div>
+                </div>
+
+                <!-- Checkboxes -->
+                <div class="section-title">Checkboxes</div>
+
+                <div class="setting-row">
+                    <div class="setting-label">Post Processing</div>
+                    <div class="setting-value">
+                        <label><input type="checkbox" name="post" value="bloom" checked/> Bloom</label>
+                        <label><input type="checkbox" name="post" value="motion_blur" checked/> Motion Blur</label>
+                        <label><input type="checkbox" name="post" value="dof"/> Depth of Field</label>
+                        <label><input type="checkbox" name="post" value="chromatic"/> Chromatic Aberration</label>
+                    </div>
+                </div>
+
+                <div class="setting-row">
+                    <div class="setting-label">Debug Overlays</div>
+                    <div class="setting-value">
+                        <label><input type="checkbox" name="debug" value="wireframe"/> Wireframe</label>
+                        <label><input type="checkbox" name="debug" value="normals"/> Normals</label>
+                        <label><input type="checkbox" name="debug" value="bboxes"/> Bounding Boxes</label>
+                    </div>
+                </div>
+
+                <div class="setting-row">
+                    <div class="setting-label">Features</div>
+                    <div class="setting-value">
+                        <label><input type="checkbox" name="features" value="vsync" checked/> VSync</label>
+                        <label><input type="checkbox" name="features" value="fullscreen"/> Fullscreen</label>
+                        <label><input type="checkbox" name="features" value="hdr" checked/> HDR</label>
+                    </div>
+                </div>
+
+                <!-- Progress Bars -->
+                <div class="section-title">Progress Bars</div>
+                <p class="description">Various progress bar styles and values.</p>
+
+                <div class="progress-row">
+                    <div class="progress-label">Loading Assets</div>
+                    <progress class="progress-bar" direction="right" value="0.75"/>
+                    <div class="progress-value">75%</div>
+                </div>
+
+                <div class="progress-row">
+                    <div class="progress-label">Compiling Shaders</div>
+                    <progress class="progress-bar green" direction="right" value="1.0"/>
+                    <div class="progress-value">100%</div>
+                </div>
+
+                <div class="progress-row">
+                    <div class="progress-label">Building BVH</div>
+                    <progress class="progress-bar orange" direction="right" value="0.45"/>
+                    <div class="progress-value">45%</div>
+                </div>
+
+                <div class="progress-row">
+                    <div class="progress-label">GPU Memory</div>
+                    <progress class="progress-bar red" direction="right" value="0.92"/>
+                    <div class="progress-value">92%</div>
+                </div>
+
+                <div class="progress-row">
+                    <div class="progress-label">CPU Usage</div>
+                    <progress class="progress-bar" direction="right" value="0.33"/>
+                    <div class="progress-value">33%</div>
+                </div>
+
+                <!-- Thin Progress Bars -->
+                <div class="section-title">Thin Progress Bars</div>
+
+                <div class="progress-row">
+                    <div class="progress-label">Download</div>
+                    <progress class="progress-bar thin" direction="right" value="0.6"/>
+                    <div class="progress-value">60%</div>
+                </div>
+
+                <div class="progress-row">
+                    <div class="progress-label">Upload</div>
+                    <progress class="progress-bar thin green" direction="right" value="0.85"/>
+                    <div class="progress-value">85%</div>
+                </div>
+
+                <div class="progress-row">
+                    <div class="progress-label">Disk I/O</div>
+                    <progress class="progress-bar thin orange" direction="right" value="0.5"/>
+                    <div class="progress-value">50%</div>
+                </div>
+
+                <!-- Edge cases -->
+                <div class="section-title">Edge Cases</div>
+
+                <div class="progress-row">
+                    <div class="progress-label">Empty (0%)</div>
+                    <progress class="progress-bar" direction="right" value="0.0"/>
+                    <div class="progress-value">0%</div>
+                </div>
+
+                <div class="progress-row">
+                    <div class="progress-label">Full (100%)</div>
+                    <progress class="progress-bar green" direction="right" value="1.0"/>
+                    <div class="progress-value">100%</div>
+                </div>
+
+                <div class="progress-row">
+                    <div class="progress-label">Tiny (3%)</div>
+                    <progress class="progress-bar red" direction="right" value="0.03"/>
+                    <div class="progress-value">3%</div>
+                </div>
+
+                </form>
+            </div>
+
+            <div class="button-bar">
+                <button class="secondary">Close</button>
+                <button class="primary">OK</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</rml>
