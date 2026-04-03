@@ -246,6 +246,21 @@
           "name": "PlayerScript"
         }
       ],
+      "BoxCollider": {
+        "collision_group": 1,
+        "half_extents": [
+          0.5,
+          1.0,
+          0.5
+        ],
+        "is_one_way": false,
+        "is_trigger": false,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
       "Model": {
         "asset_handle": "00000000-0000-4000-8000-000000000005",
         "enable_rendering": true,
@@ -279,17 +294,6 @@
         "mass": 1.0,
         "restitution": 0.0,
         "type": 2
-      },
-      "SphereCollider": {
-        "collision_group": 1,
-        "is_one_way": false,
-        "is_trigger": false,
-        "offset": [
-          0.0,
-          -0.4000000059604645,
-          0.0
-        ],
-        "radius": 0.6000000238418579
       },
       "Transform": {
         "pivot": [
@@ -343,9 +347,9 @@
           0.0
         ],
         "position": [
-          -2.421438694000244e-08,
-          1.0256073474884033,
-          0.6529859900474548
+          0.0,
+          1.3546531200408936,
+          0.36797401309013367
         ],
         "rotation": [
           0.0,
@@ -355,7 +359,7 @@
         "scale": [
           0.9999483823776245,
           0.9999644160270691,
-          0.9999662637710571
+          1.0
         ]
       },
       "name": "Camera",
