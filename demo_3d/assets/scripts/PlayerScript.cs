@@ -24,17 +24,19 @@ public class PlayerScript : MonoBehavior
 
     public override void OnStart()
     {
+        SceneManager.LoadScene("ui", LoadSceneMode.Additive);
         transform = GetComponent<TransformComponent>();
         cameraTransform = Entity.GetChild(0).GetComponent<TransformComponent>();
         rigidBody = GetComponent<RigidBodyComponent>();
 
-        Entity hudEntity = FindEntity("HUD");
+        Scene uiScene = SceneManager.FindScene("ui");
+        Entity hudEntity = uiScene.FindEntity("HUD");
         if (hudEntity != null)
         {
             hud = hudEntity.GetComponent<UIDocumentComponent>();
         }
 
-        Entity settingsEntity = FindEntity("Settings");
+        Entity settingsEntity = uiScene.FindEntity("Settings");
         if (settingsEntity != null)
         {
             settings = settingsEntity.GetComponent<UIDocumentComponent>();
@@ -155,7 +157,7 @@ public class PlayerScript : MonoBehavior
         camRotY -= mouseX * mouseSensitivity;
         camRotX -= mouseY * mouseSensitivity;
         camRotX = Mathf.Clamp(camRotX, -89f, 89f);
-
+        
         transform.Rotation = new Vector3f(0, camRotY, 0);
         cameraTransform.Rotation = new Vector3f(camRotX, 0, 0);
     }
