@@ -1,0 +1,19 @@
+{
+  "color_tint": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "metallic": 1.0,
+  "name": "",
+  "roughness": 1.0,
+  "specular": 0.07999999821186066,
+  "textures": {
+    "albedo": "88f1a3c5-19c5-4f5b-91c8-68bd20d70b36",
+    "diffuse": "88f1a3c5-19c5-4f5b-91c8-68bd20d70b36",
+    "metallic_map": "f3dae51e-0b28-4435-8744-6320e13e926e",
+    "normal": "f62c90fe-a985-4801-9cb9-ff73d7c8de35",
+    "roughness_map": "f3dae51e-0b28-4435-8744-6320e13e926e"
+  }
+}

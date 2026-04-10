@@ -143,11 +143,11 @@
       1.0,
       1.0
     ],
-    "ambient_intensity": 0.30300000309944153,
+    "ambient_intensity": 0.3019999861717224,
     "anisotropic_filtering": 1,
-    "bloom_enabled": false,
-    "bloom_intensity": 0.800000011920929,
-    "bloom_threshold": 0.5,
+    "bloom_enabled": true,
+    "bloom_intensity": 0.0,
+    "bloom_threshold": 0.8999999761581421,
     "ibl_enabled": true,
     "motion_blur_enabled": false,
     "motion_blur_samples": 8,
@@ -157,8 +157,8 @@
     "shadows_enabled": true,
     "ssao_enabled": true,
     "texture_quality": 0,
-    "vsync": false
+    "vsync": true
   },
-  "start_scene": "735e6d5e-eaaa-459c-8c56-4bf8ba747f94",
+  "start_scene": "82f32b92-6be7-4934-a939-2a341541eb70",
   "version": "1.0.0"
 }
