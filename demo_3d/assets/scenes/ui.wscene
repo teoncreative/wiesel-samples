@@ -3,7 +3,7 @@
   "entities": [
     {
       "Canvas": {
-        "alignment": 0,
+        "alignment": 1,
         "direction": 0,
         "end_spacing": 0.0,
         "render_mode": 0,
@@ -67,125 +67,126 @@
           1.0
         ]
       },
-      "name": "Settings Canvas",
-      "uuid": "a5617fa0-6805-4a53-a627-36eb43a081a6"
-    },
-    {
-      "RectangleTransform": {
-        "anchor": 0,
-        "padding": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "pivot": 0,
-        "position": [
-          0.0,
-          0.0
-        ],
-        "rotation": 0.0,
-        "scale": [
-          1.0,
-          1.0
-        ],
-        "size": [
-          0.0,
-          0.0
-        ],
-        "size_mode_x": 0,
-        "size_mode_y": 0
-      },
-      "Transform": {
-        "pivot": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "position": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "UIDocument": {
-        "document": "716be8e8-087c-4acc-8ab9-209d23cb2f5d",
-        "visible": true
-      },
-      "name": "HUD",
-      "parent": "a5617fa0-6805-4a53-a627-36eb43a081a6",
-      "uuid": "fb08cce1-662f-436c-9fd0-96e71ff9d114"
-    },
-    {
-      "Behaviors": [
+      "children": [
         {
-          "name": "SettingsScript"
+          "RectangleTransform": {
+            "anchor": 0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "pivot": 0,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "size": [
+              0.0,
+              0.0
+            ],
+            "size_mode_x": 0,
+            "size_mode_y": 0
+          },
+          "Transform": {
+            "pivot": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "UIDocument": {
+            "document": "716be8e8-087c-4acc-8ab9-209d23cb2f5d",
+            "visible": true
+          },
+          "name": "HUD",
+          "uuid": "fb08cce1-662f-436c-9fd0-96e71ff9d114"
+        },
+        {
+          "Behaviors": [
+            {
+              "name": "SettingsScript"
+            }
+          ],
+          "RectangleTransform": {
+            "anchor": 0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "pivot": 0,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "size": [
+              0.0,
+              0.0
+            ],
+            "size_mode_x": 0,
+            "size_mode_y": 0
+          },
+          "Transform": {
+            "pivot": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "position": [
+              0.0,
+              0.0,
+              -13.931892395019531
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "UIDocument": {
+            "document": "edd8ba14-df38-4ee3-b47c-7a28411ce2a2",
+            "visible": true
+          },
+          "name": "Settings",
+          "uuid": "27e36d9b-fde4-4d5b-99e1-d807b6c4fccb"
         }
       ],
-      "RectangleTransform": {
-        "anchor": 0,
-        "padding": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        "pivot": 0,
-        "position": [
-          0.0,
-          0.0
-        ],
-        "rotation": 0.0,
-        "scale": [
-          1.0,
-          1.0
-        ],
-        "size": [
-          0.0,
-          0.0
-        ],
-        "size_mode_x": 0,
-        "size_mode_y": 0
-      },
-      "Transform": {
-        "pivot": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "position": [
-          0.0,
-          0.0,
-          -13.931892395019531
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "UIDocument": {
-        "document": "edd8ba14-df38-4ee3-b47c-7a28411ce2a2",
-        "visible": true
-      },
-      "name": "Settings",
-      "parent": "a5617fa0-6805-4a53-a627-36eb43a081a6",
-      "uuid": "27e36d9b-fde4-4d5b-99e1-d807b6c4fccb"
+      "name": "Settings Canvas",
+      "uuid": "a5617fa0-6805-4a53-a627-36eb43a081a6"
     }
-  ]
+  ],
+  "version": 2
 }

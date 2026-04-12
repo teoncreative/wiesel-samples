@@ -106,6 +106,12 @@
           0.0
         ]
       },
+      "MeshRenderer": {
+        "enable_rendering": true,
+        "mesh_index": 0,
+        "model_handle": "00000000-0000-4000-8000-000000000005",
+        "receive_shadows": true
+      },
       "RigidBody": {
         "angular_damping": 0.05000000074505806,
         "friction": 0.5,
@@ -273,6 +279,17 @@
       "uuid": "45a42fb7-bce2-4837-9f6e-d7b77e30781d"
     },
     {
+      "MeshCollider": {
+        "collider_handle": "8f0ec6af-0f66-4d12-a61c-d078f6b4cbd5",
+        "collision_group": 1,
+        "is_one_way": false,
+        "is_trigger": false,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
       "MeshRenderer": {
         "enable_rendering": true,
         "material_handle": "d447e372-61bd-4637-b110-8dfe058c3336",
@@ -288,7 +305,7 @@
         ],
         "position": [
           0.0,
-          0.07732415199279785,
+          0.06524252891540527,
           0.0
         ],
         "rotation": [
@@ -334,7 +351,7 @@
             ]
           },
           "name": "sponza_mesh1",
-          "uuid": "95dde351-170a-4f8c-9515-140d4dce0f14"
+          "uuid": "7d7aa4b2-db17-426a-8053-d683651f401e"
         },
         {
           "MeshRenderer": {
@@ -367,7 +384,7 @@
             ]
           },
           "name": "sponza_mesh2",
-          "uuid": "8e34b01b-684c-49b6-b671-1824cfa4fe29"
+          "uuid": "b0b76ccc-989f-4032-81b8-94e0985b2a13"
         },
         {
           "MeshRenderer": {
@@ -400,7 +417,7 @@
             ]
           },
           "name": "sponza_mesh3",
-          "uuid": "1d21f7c4-4231-4ee9-9914-17615966bcbd"
+          "uuid": "ca8ddafe-1e57-4baa-b3f1-3d6eb1d19eed"
         },
         {
           "MeshRenderer": {
@@ -433,7 +450,7 @@
             ]
           },
           "name": "sponza_mesh4",
-          "uuid": "658b4fec-2da7-489e-b2bc-4c6a251271f7"
+          "uuid": "73291f5c-728d-4d7f-94bd-d87c693b2475"
         },
         {
           "MeshRenderer": {
@@ -466,7 +483,7 @@
             ]
           },
           "name": "sponza_mesh5",
-          "uuid": "721e0658-56aa-4093-a2c3-79880029b8de"
+          "uuid": "f1b3797d-9dbb-46c7-b43f-1c89383c4be2"
         },
         {
           "MeshRenderer": {
@@ -499,7 +516,7 @@
             ]
           },
           "name": "sponza_mesh6",
-          "uuid": "03f391a1-d859-41ce-b4f3-d95d78e97720"
+          "uuid": "5cc0adef-566b-408a-9102-6aba23f2a381"
         },
         {
           "MeshRenderer": {
@@ -532,7 +549,7 @@
             ]
           },
           "name": "sponza_mesh7",
-          "uuid": "598b3c44-7871-43c1-996e-7dff5be4116f"
+          "uuid": "42696312-c394-4352-a39a-00b3dbd1cb43"
         },
         {
           "MeshRenderer": {
@@ -565,7 +582,7 @@
             ]
           },
           "name": "sponza_mesh8",
-          "uuid": "2920de4c-43ad-464e-b1c3-a36c61e76e9f"
+          "uuid": "f6a7b69a-0a48-4de1-a170-1a2cde990790"
         },
         {
           "MeshRenderer": {
@@ -598,7 +615,7 @@
             ]
           },
           "name": "sponza_mesh9",
-          "uuid": "b57c9100-3b70-49f8-bbb1-9775e6d11dd5"
+          "uuid": "188f7c52-89c9-409f-993c-c5ac677a9fe8"
         },
         {
           "MeshRenderer": {
@@ -631,7 +648,7 @@
             ]
           },
           "name": "sponza_mesh10",
-          "uuid": "0fd7a888-5b9d-4afc-9645-d2597e5a2a13"
+          "uuid": "4f71b1c8-e520-4be4-9416-1b8682b1a054"
         },
         {
           "MeshRenderer": {
@@ -664,7 +681,7 @@
             ]
           },
           "name": "sponza_mesh11",
-          "uuid": "42eecc18-c7da-44b0-927e-ee5f7afd7f00"
+          "uuid": "d763c76f-1d1b-4e9a-a3fb-6ea7081422c5"
         },
         {
           "MeshRenderer": {
@@ -697,7 +714,7 @@
             ]
           },
           "name": "sponza_mesh12",
-          "uuid": "dac003ab-1946-412b-9ec6-9c13c2e51bbc"
+          "uuid": "21635d61-ec52-4bf0-80ca-9bb683f12e08"
         },
         {
           "MeshRenderer": {
@@ -730,7 +747,7 @@
             ]
           },
           "name": "sponza_mesh13",
-          "uuid": "c90790e6-a98a-4f05-8a15-a74b803b1906"
+          "uuid": "7a0959dd-019c-46b4-b7b0-b4e78ab69823"
         },
         {
           "MeshRenderer": {
@@ -763,7 +780,7 @@
             ]
           },
           "name": "sponza_mesh14",
-          "uuid": "68f113cd-90ce-4ccf-bbcc-0c0e4fcbfd49"
+          "uuid": "5be8bc40-ff13-44e0-aa1e-f87b91b188be"
         },
         {
           "MeshRenderer": {
@@ -796,7 +813,7 @@
             ]
           },
           "name": "sponza_mesh15",
-          "uuid": "c8ecc108-7803-4243-be14-d15925eedc8e"
+          "uuid": "fdf83b72-dde3-4e90-923b-52041539fdf9"
         },
         {
           "MeshRenderer": {
@@ -829,7 +846,7 @@
             ]
           },
           "name": "sponza_mesh16",
-          "uuid": "ef392ab2-b5e7-4167-a88e-debc50f78297"
+          "uuid": "ad37be75-5c23-4f8d-96b0-4084280e98d7"
         },
         {
           "MeshRenderer": {
@@ -862,7 +879,7 @@
             ]
           },
           "name": "sponza_mesh17",
-          "uuid": "40b2aba2-e470-4354-8df0-93c18a9b15f5"
+          "uuid": "8dbd3a73-aaba-4488-9c48-6dd5c4c95e56"
         },
         {
           "MeshRenderer": {
@@ -895,7 +912,7 @@
             ]
           },
           "name": "sponza_mesh18",
-          "uuid": "2642be18-2a31-407e-aebc-4e3a0605f399"
+          "uuid": "092335db-d162-4f88-b1f0-9b312fc4eb62"
         },
         {
           "MeshRenderer": {
@@ -928,7 +945,7 @@
             ]
           },
           "name": "sponza_mesh19",
-          "uuid": "5c800d22-cf0f-47f0-acf0-2fa15727b654"
+          "uuid": "f52eb9ff-efc6-490a-8788-83a7e54aeee7"
         },
         {
           "MeshRenderer": {
@@ -961,7 +978,7 @@
             ]
           },
           "name": "sponza_mesh20",
-          "uuid": "f411c2c0-5b1c-4c34-82e7-a84b87e46be6"
+          "uuid": "8f9788be-1089-4ff5-91f7-763e4146aeb9"
         },
         {
           "MeshRenderer": {
@@ -994,7 +1011,7 @@
             ]
           },
           "name": "sponza_mesh21",
-          "uuid": "d4e0f51a-baa7-473b-a963-f61dbb39cba3"
+          "uuid": "2b9df34d-4189-418e-9883-3f4feb646171"
         },
         {
           "MeshRenderer": {
@@ -1027,7 +1044,7 @@
             ]
           },
           "name": "sponza_mesh22",
-          "uuid": "12bdcfff-7fd6-4d6d-83d3-65cb4f1026e6"
+          "uuid": "29913e4e-4a31-48f0-8b16-c09034b43e27"
         },
         {
           "MeshRenderer": {
@@ -1060,7 +1077,7 @@
             ]
           },
           "name": "sponza_mesh23",
-          "uuid": "734d99f2-660e-4b50-8ed0-103154f1e906"
+          "uuid": "75fc4527-0766-4d10-9a84-de194c969afc"
         },
         {
           "MeshRenderer": {
@@ -1093,7 +1110,7 @@
             ]
           },
           "name": "sponza_mesh24",
-          "uuid": "0552ddaa-27f3-4aa6-b720-05000496e47b"
+          "uuid": "3ed255c3-e469-478c-b9a3-0b94d74a17d5"
         },
         {
           "MeshRenderer": {
@@ -1126,7 +1143,7 @@
             ]
           },
           "name": "sponza_mesh25",
-          "uuid": "82ebae65-eb3b-43cc-aab1-30f46c90c0c1"
+          "uuid": "ba9eb467-b72c-42b0-b254-254b6f521b4b"
         },
         {
           "MeshRenderer": {
@@ -1159,7 +1176,7 @@
             ]
           },
           "name": "sponza_mesh26",
-          "uuid": "3efcdffc-07e7-477b-ba29-3713c632637a"
+          "uuid": "ec5a18c0-02da-4ae3-ac40-f2277ad0c951"
         },
         {
           "MeshRenderer": {
@@ -1192,7 +1209,7 @@
             ]
           },
           "name": "sponza_mesh27",
-          "uuid": "895e0b22-7860-4905-a82f-e507451102c1"
+          "uuid": "fdec82f8-3844-466a-bd20-b8b5783a52eb"
         },
         {
           "MeshRenderer": {
@@ -1225,7 +1242,7 @@
             ]
           },
           "name": "sponza_mesh28",
-          "uuid": "5bc1367e-c641-4394-bc64-74e1649960c8"
+          "uuid": "a5c83485-6c23-485e-b815-2fe81b400ccf"
         },
         {
           "MeshRenderer": {
@@ -1258,7 +1275,7 @@
             ]
           },
           "name": "sponza_mesh29",
-          "uuid": "f4b4bef8-6280-44ef-85d4-bdbc8f52f3c8"
+          "uuid": "255358a6-7abf-4576-b605-145dc5df603e"
         },
         {
           "MeshRenderer": {
@@ -1291,7 +1308,7 @@
             ]
           },
           "name": "sponza_mesh30",
-          "uuid": "3d60e81f-744c-4f9f-b102-34ff31ec986d"
+          "uuid": "a6894df2-5caf-4f6b-b4b9-12f304706e12"
         },
         {
           "MeshRenderer": {
@@ -1324,7 +1341,7 @@
             ]
           },
           "name": "sponza_mesh31",
-          "uuid": "bd1986df-4fdb-4d9f-a985-e91848d28206"
+          "uuid": "90cb5f2a-4f16-4d01-ba67-808f2c67e68d"
         },
         {
           "MeshRenderer": {
@@ -1357,7 +1374,7 @@
             ]
           },
           "name": "sponza_mesh32",
-          "uuid": "893796c4-be17-4992-8eb7-a5a8b8bf15fc"
+          "uuid": "79f77fa9-f33a-4322-b679-e49b01bc0a99"
         },
         {
           "MeshRenderer": {
@@ -1390,7 +1407,7 @@
             ]
           },
           "name": "sponza_mesh33",
-          "uuid": "36d7f49f-a097-4e2d-8a45-c8b9299ccb96"
+          "uuid": "e602cd02-d6d2-4d01-ad1e-eb76fd85a95b"
         },
         {
           "MeshRenderer": {
@@ -1423,7 +1440,7 @@
             ]
           },
           "name": "sponza_mesh34",
-          "uuid": "51d3a2b6-6689-49d5-818b-c1467dd8e030"
+          "uuid": "9df744b6-eb1c-4ccc-8105-61652dea8a87"
         },
         {
           "MeshRenderer": {
@@ -1456,7 +1473,7 @@
             ]
           },
           "name": "sponza_mesh35",
-          "uuid": "ec757965-30aa-4e45-8502-2e351f770b48"
+          "uuid": "a6e46a7d-ed23-4b5e-a3bc-4466f091cfb8"
         },
         {
           "MeshRenderer": {
@@ -1489,7 +1506,7 @@
             ]
           },
           "name": "sponza_mesh36",
-          "uuid": "dfe37e34-06f3-4c20-bd14-8860a721bc0d"
+          "uuid": "a08886e5-7f46-40a7-872c-4d5dfede87c9"
         },
         {
           "MeshRenderer": {
@@ -1522,7 +1539,7 @@
             ]
           },
           "name": "sponza_mesh37",
-          "uuid": "8335d7ab-6acb-4f98-9628-1a898a96bef8"
+          "uuid": "feac82a0-0180-4741-85df-d3b3daf2582f"
         },
         {
           "MeshRenderer": {
@@ -1555,7 +1572,7 @@
             ]
           },
           "name": "sponza_mesh38",
-          "uuid": "0925f66c-b308-4c3b-948c-6baec24a640b"
+          "uuid": "0eddefdf-d818-4aa4-ac40-776811d28dc6"
         },
         {
           "MeshRenderer": {
@@ -1588,7 +1605,7 @@
             ]
           },
           "name": "sponza_mesh39",
-          "uuid": "3aab2815-d13e-4eba-933b-b952982e0730"
+          "uuid": "1e0568e6-ddcc-458f-9dcc-bcda1f1a75be"
         },
         {
           "MeshRenderer": {
@@ -1621,7 +1638,7 @@
             ]
           },
           "name": "sponza_mesh40",
-          "uuid": "024159f2-5958-47d9-9893-0b065946dad8"
+          "uuid": "47eab315-b66a-4b7c-a6eb-f3dcaddcebaa"
         },
         {
           "MeshRenderer": {
@@ -1654,7 +1671,7 @@
             ]
           },
           "name": "sponza_mesh41",
-          "uuid": "e9f4db73-afbe-4609-8815-96de23efdbd9"
+          "uuid": "530159c6-f7b0-432d-b0e8-93bd9f6e0b65"
         },
         {
           "MeshRenderer": {
@@ -1687,7 +1704,7 @@
             ]
           },
           "name": "sponza_mesh42",
-          "uuid": "b6ca3bda-8249-4c09-90fe-4cc0ddd27093"
+          "uuid": "68835d55-2339-4c22-bda8-297af86237c0"
         },
         {
           "MeshRenderer": {
@@ -1720,7 +1737,7 @@
             ]
           },
           "name": "sponza_mesh43",
-          "uuid": "990ce48c-fdd9-460d-94f5-49e433239afb"
+          "uuid": "a4a43ebc-a412-48b3-9682-003859c5a6b9"
         },
         {
           "MeshRenderer": {
@@ -1753,7 +1770,7 @@
             ]
           },
           "name": "sponza_mesh44",
-          "uuid": "ca1176ab-365d-4faa-94ad-0bd9dc17dd36"
+          "uuid": "e89d0672-7924-48c5-9e85-9946f4465376"
         },
         {
           "MeshRenderer": {
@@ -1786,7 +1803,7 @@
             ]
           },
           "name": "sponza_mesh45",
-          "uuid": "26d7c557-b0e6-4117-a437-8e2e4d51089a"
+          "uuid": "c74d00b2-d664-4dba-a190-db333d3f69e3"
         },
         {
           "MeshRenderer": {
@@ -1819,7 +1836,7 @@
             ]
           },
           "name": "sponza_mesh46",
-          "uuid": "ef0d4646-f632-4e96-99ef-84b3b16b4aec"
+          "uuid": "0c8b33a6-120f-43d1-a6a3-1047b0b268a2"
         },
         {
           "MeshRenderer": {
@@ -1852,7 +1869,7 @@
             ]
           },
           "name": "sponza_mesh47",
-          "uuid": "61d6443b-4b44-4cac-a1fc-6c6e9fc095f0"
+          "uuid": "d2eb6bf9-9be6-458a-a72f-6a9b292f08c4"
         },
         {
           "MeshRenderer": {
@@ -1885,7 +1902,7 @@
             ]
           },
           "name": "sponza_mesh48",
-          "uuid": "31e92caa-9e95-4ee1-ae5c-9ab89f25d954"
+          "uuid": "1456b8b7-12e9-4623-8b9d-093af9978fb5"
         },
         {
           "MeshRenderer": {
@@ -1918,7 +1935,7 @@
             ]
           },
           "name": "sponza_mesh49",
-          "uuid": "b9f7e041-7e00-4505-9d5f-fdfd70905259"
+          "uuid": "b41a2c6f-8561-4a46-a28c-787cf420790d"
         },
         {
           "MeshRenderer": {
@@ -1951,7 +1968,7 @@
             ]
           },
           "name": "sponza_mesh50",
-          "uuid": "90b379de-830a-41a6-abad-362bec42999c"
+          "uuid": "c05a34ff-c367-4981-ae3a-2526c603d9a4"
         },
         {
           "MeshRenderer": {
@@ -1984,7 +2001,7 @@
             ]
           },
           "name": "sponza_mesh51",
-          "uuid": "7cea7711-324d-4ec5-b764-76bec285325d"
+          "uuid": "68076b7f-3a46-4178-9599-c11bde0269ef"
         },
         {
           "MeshRenderer": {
@@ -2017,7 +2034,7 @@
             ]
           },
           "name": "sponza_mesh52",
-          "uuid": "0789ac0c-50df-4efa-b13e-fe9ba7226bb5"
+          "uuid": "3f999307-e883-4492-b522-f09e61c1c507"
         },
         {
           "MeshRenderer": {
@@ -2050,7 +2067,7 @@
             ]
           },
           "name": "sponza_mesh53",
-          "uuid": "916687cd-7a50-436d-9f8a-dd9e78e61e0e"
+          "uuid": "55f85350-c8b8-4e96-8bc0-6ba4c21cf058"
         },
         {
           "MeshRenderer": {
@@ -2083,7 +2100,7 @@
             ]
           },
           "name": "sponza_mesh54",
-          "uuid": "906b60af-508c-41fb-8a95-cac17118a061"
+          "uuid": "f5246463-7a74-4608-9410-8c2b9748051c"
         },
         {
           "MeshRenderer": {
@@ -2116,7 +2133,7 @@
             ]
           },
           "name": "sponza_mesh55",
-          "uuid": "52df2e2b-d855-4e91-ac8f-5083e3ee8e53"
+          "uuid": "10e9cd1b-8c1f-4978-bce0-bb14f7eeb658"
         },
         {
           "MeshRenderer": {
@@ -2149,7 +2166,7 @@
             ]
           },
           "name": "sponza_mesh56",
-          "uuid": "97825276-a375-4778-b29e-e1e13e771810"
+          "uuid": "73e8f1e1-93a4-4971-b2e8-8d4d9b614b9e"
         },
         {
           "MeshRenderer": {
@@ -2182,7 +2199,7 @@
             ]
           },
           "name": "sponza_mesh57",
-          "uuid": "c0ac9817-a9df-4129-8c53-db74665f9649"
+          "uuid": "a5ea597c-fdd1-4f11-8581-bb7c41580127"
         },
         {
           "MeshRenderer": {
@@ -2215,7 +2232,7 @@
             ]
           },
           "name": "sponza_mesh58",
-          "uuid": "1ba4bc57-9e70-4d6e-9e4d-a32803095dda"
+          "uuid": "932d9b45-c32c-4c5f-9a6e-761a532cd00c"
         },
         {
           "MeshRenderer": {
@@ -2248,7 +2265,7 @@
             ]
           },
           "name": "sponza_mesh59",
-          "uuid": "ac663347-1da9-42c3-a12a-0259b6934634"
+          "uuid": "2ec6f1d1-a79b-4cfe-8746-89cd69b6ea5d"
         },
         {
           "MeshRenderer": {
@@ -2281,7 +2298,7 @@
             ]
           },
           "name": "sponza_mesh60",
-          "uuid": "339e863f-db52-4a05-9090-4d54daf761e0"
+          "uuid": "6720c70b-b00d-4bfb-af95-22aeba64e8af"
         },
         {
           "MeshRenderer": {
@@ -2314,7 +2331,7 @@
             ]
           },
           "name": "sponza_mesh61",
-          "uuid": "0ae0edf3-ae52-4a61-b590-434d83efb231"
+          "uuid": "f520fc39-a219-4fed-ab7a-222132cac9bc"
         },
         {
           "MeshRenderer": {
@@ -2347,7 +2364,7 @@
             ]
           },
           "name": "sponza_mesh62",
-          "uuid": "91bb8f80-7cda-4d57-a154-1dc0f4e9431f"
+          "uuid": "66a4bcee-4879-44e1-97f8-1945d22cb487"
         },
         {
           "MeshRenderer": {
@@ -2380,7 +2397,7 @@
             ]
           },
           "name": "sponza_mesh63",
-          "uuid": "f00c8525-73bf-46e4-97c5-f529ace52b44"
+          "uuid": "9d589cb7-224e-40e9-829e-43acdc88f664"
         },
         {
           "MeshRenderer": {
@@ -2413,7 +2430,7 @@
             ]
           },
           "name": "sponza_mesh64",
-          "uuid": "e4f2dfc2-096c-460c-a376-6be369cbf98f"
+          "uuid": "7f3e1013-dc10-4a7c-987d-b7ab3243c53e"
         },
         {
           "MeshRenderer": {
@@ -2446,7 +2463,7 @@
             ]
           },
           "name": "sponza_mesh65",
-          "uuid": "3b6d90eb-e7d9-4c0b-8459-09a89d1bc0b6"
+          "uuid": "eb6276ef-65fe-4e21-a6c2-bf317115628c"
         },
         {
           "MeshRenderer": {
@@ -2479,7 +2496,7 @@
             ]
           },
           "name": "sponza_mesh66",
-          "uuid": "5fabdbac-f641-402d-9234-b244c44b1745"
+          "uuid": "7c6adcc6-5fdb-4da8-a660-106138010395"
         },
         {
           "MeshRenderer": {
@@ -2512,7 +2529,7 @@
             ]
           },
           "name": "sponza_mesh67",
-          "uuid": "127cacd6-fa5f-4daa-b603-e38b56e10e90"
+          "uuid": "3e690ff0-be4f-4ccc-887b-f55c25646899"
         },
         {
           "MeshRenderer": {
@@ -2545,7 +2562,7 @@
             ]
           },
           "name": "sponza_mesh68",
-          "uuid": "8b5c3180-3e63-4867-9625-d9b31eec6968"
+          "uuid": "6e4b1dba-b553-412b-9d46-09e1d9503dfd"
         },
         {
           "MeshRenderer": {
@@ -2578,7 +2595,7 @@
             ]
           },
           "name": "sponza_mesh69",
-          "uuid": "9293d324-3430-4be6-acfc-fb53239cd687"
+          "uuid": "515452ea-102e-4d76-99f5-ec35110463e3"
         },
         {
           "MeshRenderer": {
@@ -2611,7 +2628,7 @@
             ]
           },
           "name": "sponza_mesh70",
-          "uuid": "f98573fb-14fc-4bdd-af8b-6e8d21de87a2"
+          "uuid": "cbef9b44-10a7-4322-bb74-b2a7a004986d"
         },
         {
           "MeshRenderer": {
@@ -2644,7 +2661,7 @@
             ]
           },
           "name": "sponza_mesh71",
-          "uuid": "c64fc686-bc06-400b-a747-e1dae840ec22"
+          "uuid": "bee8aa02-116e-427d-8a35-f45b1cb3ba4a"
         },
         {
           "MeshRenderer": {
@@ -2677,7 +2694,7 @@
             ]
           },
           "name": "sponza_mesh72",
-          "uuid": "3153e21a-68b9-4fe6-8afa-42ce993c12b4"
+          "uuid": "433c5052-2b06-4690-b261-e2f15b230f63"
         },
         {
           "MeshRenderer": {
@@ -2710,7 +2727,7 @@
             ]
           },
           "name": "sponza_mesh73",
-          "uuid": "426bb284-0e86-443b-8a1f-aeed4c4f71e2"
+          "uuid": "71ae4346-e199-4dd8-8614-a7b633d6fe48"
         },
         {
           "MeshRenderer": {
@@ -2743,7 +2760,7 @@
             ]
           },
           "name": "sponza_mesh74",
-          "uuid": "26c6ddf9-f5de-48ad-9c5a-772b4af592dc"
+          "uuid": "0c3c86b4-f799-461a-aa53-4396d2bb9cf0"
         },
         {
           "MeshRenderer": {
@@ -2776,7 +2793,7 @@
             ]
           },
           "name": "sponza_mesh75",
-          "uuid": "feba21e7-1795-42ac-9a64-540eb7f8324a"
+          "uuid": "e9e706c1-b506-428a-a51f-66af20f35e6a"
         },
         {
           "MeshRenderer": {
@@ -2809,7 +2826,7 @@
             ]
           },
           "name": "sponza_mesh76",
-          "uuid": "bb182908-b017-487f-945c-630b983379eb"
+          "uuid": "69057b48-d426-4378-81fa-6de5b21a0031"
         },
         {
           "MeshRenderer": {
@@ -2842,7 +2859,7 @@
             ]
           },
           "name": "sponza_mesh77",
-          "uuid": "e414d719-7c14-43e2-a138-067207412523"
+          "uuid": "f6f911fc-f134-4c49-86fb-3429307efcb3"
         },
         {
           "MeshRenderer": {
@@ -2875,7 +2892,7 @@
             ]
           },
           "name": "sponza_mesh78",
-          "uuid": "9b718a5c-2276-4b74-8511-2531f31ad8ad"
+          "uuid": "bcc5f6ad-73e4-4388-a63b-3bb9f97cd18f"
         },
         {
           "MeshRenderer": {
@@ -2908,7 +2925,7 @@
             ]
           },
           "name": "sponza_mesh79",
-          "uuid": "746c0689-a258-4bc2-9785-fd40f87de1a8"
+          "uuid": "74373ef5-9038-4297-84a2-0efa9884303d"
         },
         {
           "MeshRenderer": {
@@ -2941,7 +2958,7 @@
             ]
           },
           "name": "sponza_mesh80",
-          "uuid": "a43d99ac-aa74-4361-9c56-6d1f28aa4cab"
+          "uuid": "ab3c3c67-b44d-4fb8-b91d-b3ce616707f2"
         },
         {
           "MeshRenderer": {
@@ -2974,7 +2991,7 @@
             ]
           },
           "name": "sponza_mesh81",
-          "uuid": "443360b1-2441-41ab-995d-913f5f57e83d"
+          "uuid": "4871051c-4fd3-40f4-a732-b6538502fb36"
         },
         {
           "MeshRenderer": {
@@ -3007,7 +3024,7 @@
             ]
           },
           "name": "sponza_mesh82",
-          "uuid": "ddbe472c-e664-46cf-82ba-65f88e3cc3b5"
+          "uuid": "be19578b-2f05-4494-9755-28c808377809"
         },
         {
           "MeshRenderer": {
@@ -3040,7 +3057,7 @@
             ]
           },
           "name": "sponza_mesh83",
-          "uuid": "a7041a68-f972-4bfc-add8-0ef689666e66"
+          "uuid": "2428d17f-a3a7-4bf4-97a1-c796b1fd526b"
         },
         {
           "MeshRenderer": {
@@ -3073,7 +3090,7 @@
             ]
           },
           "name": "sponza_mesh84",
-          "uuid": "764c7678-11da-4fcf-8550-94d2eccf063c"
+          "uuid": "7109c74d-141d-4aca-bfed-8255577ae152"
         },
         {
           "MeshRenderer": {
@@ -3106,7 +3123,7 @@
             ]
           },
           "name": "sponza_mesh85",
-          "uuid": "d26ce610-3c76-4c59-a5e0-105c74c25f21"
+          "uuid": "88bb1290-54b9-40ec-8ea9-33787a7f73e8"
         },
         {
           "MeshRenderer": {
@@ -3139,7 +3156,7 @@
             ]
           },
           "name": "sponza_mesh86",
-          "uuid": "32766b5f-7e76-40b6-9630-876c053d2aee"
+          "uuid": "386142bb-0a22-419a-89cd-d6ea38567aaf"
         },
         {
           "MeshRenderer": {
@@ -3172,7 +3189,7 @@
             ]
           },
           "name": "sponza_mesh87",
-          "uuid": "fecd6a48-b6b9-4f41-90ab-fb3d65ef480f"
+          "uuid": "d2f3b0df-1e5a-4ea2-a1b2-18249d0893bb"
         },
         {
           "MeshRenderer": {
@@ -3205,7 +3222,7 @@
             ]
           },
           "name": "sponza_mesh88",
-          "uuid": "c3fee56a-7055-4c1c-b356-aac16cf7fc09"
+          "uuid": "3424e467-ea49-4811-acfd-5fa4d6de7d11"
         },
         {
           "MeshRenderer": {
@@ -3238,7 +3255,7 @@
             ]
           },
           "name": "sponza_mesh89",
-          "uuid": "24bc34ed-e4ae-4d18-a45d-50dc6b5feede"
+          "uuid": "0540fa06-9047-472d-aa26-a38a2355e08a"
         },
         {
           "MeshRenderer": {
@@ -3271,7 +3288,7 @@
             ]
           },
           "name": "sponza_mesh90",
-          "uuid": "77391988-a053-4ef0-a3ed-d0e5b3d023e0"
+          "uuid": "032857fa-6cfb-491b-a232-ed7130eecde7"
         },
         {
           "MeshRenderer": {
@@ -3304,7 +3321,7 @@
             ]
           },
           "name": "sponza_mesh91",
-          "uuid": "483df560-fd5d-436b-b81d-7d641b13ca75"
+          "uuid": "5cee7c44-ed62-4d7e-8b2c-2a1f0c900c6d"
         },
         {
           "MeshRenderer": {
@@ -3337,7 +3354,7 @@
             ]
           },
           "name": "sponza_mesh92",
-          "uuid": "84109ea7-494d-490d-9388-80b57a21b9fa"
+          "uuid": "27d9d460-5405-44bf-ab68-b54e1ad5ac2c"
         },
         {
           "MeshRenderer": {
@@ -3370,7 +3387,7 @@
             ]
           },
           "name": "sponza_mesh93",
-          "uuid": "52a05202-f311-40a6-82f5-e2ed74cd1895"
+          "uuid": "4295dfba-5f76-42cb-ae3e-b08ed2071102"
         },
         {
           "MeshRenderer": {
@@ -3403,7 +3420,7 @@
             ]
           },
           "name": "sponza_mesh94",
-          "uuid": "9c523c09-3080-4423-98c4-4bfac91b05d9"
+          "uuid": "20668cb3-e8e2-4e94-85ef-38cf94afdb55"
         },
         {
           "MeshRenderer": {
@@ -3436,7 +3453,7 @@
             ]
           },
           "name": "sponza_mesh95",
-          "uuid": "579083d8-82ac-4147-b799-9a0e3212e60a"
+          "uuid": "83f635ff-8062-4698-9f38-3eadc714d9d0"
         },
         {
           "MeshRenderer": {
@@ -3469,7 +3486,7 @@
             ]
           },
           "name": "sponza_mesh96",
-          "uuid": "b90e853d-d39e-42e2-818f-04f1d106f380"
+          "uuid": "64cf41b3-5162-48a8-983b-23ac7dbdbbe8"
         },
         {
           "MeshRenderer": {
@@ -3502,7 +3519,7 @@
             ]
           },
           "name": "sponza_mesh97",
-          "uuid": "08fe4eae-1d36-4358-afa5-31a0ae8c5a08"
+          "uuid": "15de1cab-acc5-4d27-a0bc-685423a10383"
         },
         {
           "MeshRenderer": {
@@ -3535,7 +3552,7 @@
             ]
           },
           "name": "sponza_mesh98",
-          "uuid": "3598dc15-7d3a-40ad-90a5-4d854f8726a8"
+          "uuid": "063a494a-e820-4127-875c-25c13cca3b08"
         },
         {
           "MeshRenderer": {
@@ -3568,7 +3585,7 @@
             ]
           },
           "name": "sponza_mesh99",
-          "uuid": "4d349775-fd3b-4b46-a973-c96e9ef7286d"
+          "uuid": "cadc40c7-ac34-48b2-b8f3-a815dd5f675c"
         },
         {
           "MeshRenderer": {
@@ -3601,7 +3618,7 @@
             ]
           },
           "name": "sponza_mesh100",
-          "uuid": "18a99294-204d-447f-8bb4-6fd30e8fb3e6"
+          "uuid": "4c025b68-2eb9-4677-bccc-00b96a5efba9"
         },
         {
           "MeshRenderer": {
@@ -3634,7 +3651,7 @@
             ]
           },
           "name": "sponza_mesh101",
-          "uuid": "fcb0da06-f7ee-441d-8f5b-f3c5358a020f"
+          "uuid": "64806c55-788f-44d7-9aa5-323e5e2cf30e"
         },
         {
           "MeshRenderer": {
@@ -3667,11 +3684,11 @@
             ]
           },
           "name": "sponza_mesh102",
-          "uuid": "c4cfaa0f-0aa1-4704-b354-5fae842a1e76"
+          "uuid": "5c4f6c51-7684-4641-bd58-0e2973ee737b"
         }
       ],
       "name": "sponza",
-      "uuid": "803b3401-45e0-433b-8b2c-266836621edc"
+      "uuid": "ceb1ffe9-e860-491d-adeb-6c8516a88c96"
     }
   ],
   "version": 2
