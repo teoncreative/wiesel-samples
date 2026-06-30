@@ -135,21 +135,21 @@
     "mouse_sensitivity_x": 80.0,
     "mouse_sensitivity_y": 80.0
   },
-  "name": "demo_3d",
+  "name": "pixelchess",
   "render_options": {
-    "aa_mode": 1,
+    "aa_mode": 0,
     "ambient_color": [
       1.0,
       1.0,
       1.0
     ],
-    "ambient_intensity": 0.3109999895095825,
-    "anisotropic_filtering": 1,
-    "bloom_clamp": 64572.0,
+    "ambient_intensity": 0.30000001192092896,
+    "anisotropic_filtering": 16,
+    "bloom_clamp": 65472.0,
     "bloom_enabled": true,
     "bloom_high_quality": false,
     "bloom_intensity": 0.0,
-    "bloom_scatter": 1.0,
+    "bloom_scatter": 0.699999988079071,
     "bloom_threshold": 0.8999999761581421,
     "bloom_tint": [
       1.0,
@@ -165,8 +165,8 @@
     "shadows_enabled": true,
     "ssao_enabled": true,
     "texture_quality": 0,
-    "vsync": true
+    "vsync": false
   },
-  "start_scene": "05004e46-98e0-4fb5-9fc4-8e73b9ef76df",
+  "start_scene": "",
   "version": "1.0.0"
 }

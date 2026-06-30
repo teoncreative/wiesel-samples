@@ -1,0 +1,54 @@
+<rml>
+<head>
+    <link type="text/rcss" href="network_menu.rcss"/>
+    <title>Network Menu</title>
+</head>
+<body data-model="model">
+<div class="overlay">
+    <div class="menu-panel">
+        <div class="header">
+            <h1>Multiplayer</h1>
+        </div>
+        <div class="content">
+            <div class="section">
+                <div class="section-title">Host Server</div>
+                <div class="row">
+                    <div class="label">Port</div>
+                    <input class="port-input" type="text" data-value="server_port"/>
+                </div>
+                <div class="row">
+                    <div class="btn btn-primary" data-event-click="host">Host Game</div>
+                    <div class="btn btn-danger" data-event-click="stop_server">Stop</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Join Server</div>
+                <div class="row">
+                    <div class="label">IP Address</div>
+                    <input class="text-input" type="text" data-value="connect_ip"/>
+                </div>
+                <div class="row">
+                    <div class="label">Port</div>
+                    <input class="port-input" type="text" data-value="connect_port"/>
+                </div>
+                <div class="row">
+                    <div class="btn btn-primary" data-event-click="connect">Connect</div>
+                    <div class="btn btn-danger" data-event-click="disconnect">Disconnect</div>
+                </div>
+            </div>
+
+            <div class="status">
+                <div class="status-label">Status</div>
+                <div class="status-value" data-class-status-disconnected="role == 0"
+                     data-class-status-server="role == 1"
+                     data-class-status-client="role == 2"
+                     data-class-status-listenserver="role == 3">
+                    {{status_text}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</rml>

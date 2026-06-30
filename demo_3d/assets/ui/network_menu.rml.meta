@@ -1,0 +1,44 @@
+{
+  "handle": "692a8041-c76c-4d41-abb3-71964e67aec3",
+  "type": "UIDocument",
+  "properties": {
+    "events": [
+      "host",
+      "stop_server",
+      "connect",
+      "disconnect"
+    ],
+    "variables": [
+      {
+        "default": "25000",
+        "mode": 0,
+        "name": "server_port",
+        "type": 2
+      },
+      {
+        "default": "127.0.0.1",
+        "mode": 0,
+        "name": "connect_ip",
+        "type": 2
+      },
+      {
+        "default": "25000",
+        "mode": 0,
+        "name": "connect_port",
+        "type": 2
+      },
+      {
+        "default": "0",
+        "mode": 1,
+        "name": "role",
+        "type": 0
+      },
+      {
+        "default": "Disconnected",
+        "mode": 1,
+        "name": "status_text",
+        "type": 2
+      }
+    ]
+  }
+}

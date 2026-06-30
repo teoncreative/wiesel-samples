@@ -42,20 +42,21 @@ body {
     font-family: 'Source Sans 3';
     font-size: 15dp;
     color: rgba(224, 224, 224, 255);
-    width: 1280dp;
-    height: 720dp;
+    margin: auto;
 }
 
 .overlay {
-    width: 1280dp;
-    height: 720dp;
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
 .settings-panel {
-    position: absolute;
-    left: 140dp;
-    top: 36dp;
     width: 1000dp;
     height: 648dp;
     background-color: rgba(20, 22, 30, 242);

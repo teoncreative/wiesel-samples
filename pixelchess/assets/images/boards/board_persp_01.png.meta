@@ -1,0 +1,10 @@
+{
+  "handle": "4ed38701-c792-4de4-becc-c59ad32a5a7d",
+  "properties": {
+    "asset_type": 2,
+    "filter_mode": 0,
+    "generate_mipmaps": true,
+    "wrap_mode": 0
+  },
+  "type": "Texture"
+}

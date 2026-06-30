@@ -1,0 +1,17 @@
+{
+  "default_state": "State0",
+  "states": [
+    {
+      "clip": "46f27a25-a6f8-42a0-80e1-52d3887312d1",
+      "editor_id": 1,
+      "editor_pos": [
+        123.0,
+        116.0
+      ],
+      "name": "State0",
+      "speed": 1.0
+    }
+  ],
+  "transitions": [],
+  "version": 1
+}

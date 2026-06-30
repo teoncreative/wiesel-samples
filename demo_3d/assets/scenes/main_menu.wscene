@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "Canvas": {
+        "alignment": 1,
+        "direction": 0,
+        "end_spacing": 0.0,
+        "render_mode": 0,
+        "sort_order": 0,
+        "spacing": 0.0,
+        "start_spacing": 0.0
+      },
+      "CanvasScaler": {
+        "match_width_or_height": 1.0,
+        "reference_pixels_per_unit": 100.0,
+        "reference_resolution": [
+          1920.0,
+          720.0
+        ],
+        "scale_mode": 1
+      },
+      "RectangleTransform": {
+        "anchor": 0,
+        "padding": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pivot": 0,
+        "position": [
+          0.0,
+          0.0
+        ],
+        "rotation": 0.0,
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "size_mode_x": 0,
+        "size_mode_y": 0
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "children": [
+        {
+          "Behaviors": [
+            {
+              "name": "NetworkMenuScript"
+            }
+          ],
+          "RectangleTransform": {
+            "anchor": 0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "pivot": 0,
+            "position": [
+              0.0,
+              0.0
+            ],
+            "rotation": 0.0,
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "size": [
+              0.0,
+              0.0
+            ],
+            "size_mode_x": 0,
+            "size_mode_y": 0
+          },
+          "Transform": {
+            "pivot": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "UIDocument": {
+            "document": "692a8041-c76c-4d41-abb3-71964e67aec3",
+            "visible": true
+          },
+          "name": "UI",
+          "uuid": "2ccd7c7f-e995-4c39-b08b-10f021108e2f"
+        }
+      ],
+      "name": "Canvas",
+      "uuid": "7e74b692-6a78-4eae-87e6-e812565a4534"
+    },
+    {
+      "Camera": {
+        "background_color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "enabled": true,
+        "far_plane": 1000.0,
+        "field_of_view": 60.0,
+        "near_plane": 0.30000001192092896,
+        "ortho_size": 5.0,
+        "projection_mode": 0,
+        "viewport_size": [
+          2560.0,
+          1440.0
+        ]
+      },
+      "Transform": {
+        "pivot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "name": "Camera",
+      "uuid": "0df235af-ed96-41ed-b53f-b16ee1ca0de7"
+    }
+  ],
+  "version": 3
+}

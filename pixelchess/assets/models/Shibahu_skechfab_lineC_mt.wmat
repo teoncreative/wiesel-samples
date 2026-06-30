@@ -1,0 +1,13 @@
+{
+  "color_tint": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "metallic": 0.0,
+  "name": "lineC_mt",
+  "roughness": 0.858578622341156,
+  "specular": 0.07999999821186066,
+  "version": 1
+}

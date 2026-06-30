@@ -1,0 +1,17 @@
+{
+  "color_tint": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "double_sided": true,
+  "metallic": 0.0,
+  "name": "uploads_files_4569088_untitled_Grass_bqm",
+  "roughness": 0.5,
+  "specular": 0.07999999821186066,
+  "textures": {
+    "diffuse": "58e0ab27-de3e-487d-b652-919a8e125652"
+  },
+  "version": 1
+}

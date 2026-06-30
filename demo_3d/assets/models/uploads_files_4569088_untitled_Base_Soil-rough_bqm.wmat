@@ -1,0 +1,17 @@
+{
+  "color_tint": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "double_sided": true,
+  "metallic": 0.0,
+  "name": "uploads_files_4569088_untitled_Base_Soil-rough_bqm",
+  "roughness": 0.0,
+  "specular": 0.07999999821186066,
+  "textures": {
+    "diffuse": "45007116-1848-4967-9301-a2b2dddd2dad"
+  },
+  "version": 1
+}

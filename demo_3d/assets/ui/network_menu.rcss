@@ -1,0 +1,170 @@
+body, div, p, h1, h2, h3, form, label, select, option {
+    display: block;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3';
+    font-size: 15dp;
+    color: rgba(224, 224, 224, 255);
+    margin: auto;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.menu-panel {
+    width: 600dp;
+    height: 500dp;
+    background-color: rgba(20, 22, 30, 242);
+    border-radius: 10dp;
+    overflow: hidden;
+}
+
+.header {
+    width: 600dp;
+    height: 60dp;
+    padding: 18dp 28dp;
+    background-color: #1e2230;
+    border-bottom-width: 1dp;
+    border-bottom-color: #3c4155;
+}
+
+.header h1 {
+    font-size: 24dp;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+
+.content {
+    padding: 20dp 28dp;
+}
+
+.section {
+    margin-bottom: 20dp;
+}
+
+.section-title {
+    font-size: 16dp;
+    font-weight: bold;
+    color: #8899aa;
+    margin-bottom: 10dp;
+    text-transform: uppercase;
+    letter-spacing: 1dp;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8dp;
+    height: 32dp;
+}
+
+.label {
+    width: 120dp;
+    color: #aabbcc;
+    font-size: 14dp;
+}
+
+input.text-input {
+    width: 200dp;
+    height: 28dp;
+    background-color: #2a2d3a;
+    border-width: 1dp;
+    border-color: #3c4155;
+    border-radius: 4dp;
+    padding: 4dp 8dp;
+    color: #e0e0e0;
+    font-size: 14dp;
+}
+
+input.text-input:focus {
+    border-color: #5588cc;
+}
+
+input.port-input {
+    width: 80dp;
+    height: 28dp;
+    background-color: #2a2d3a;
+    border-width: 1dp;
+    border-color: #3c4155;
+    border-radius: 4dp;
+    padding: 4dp 8dp;
+    color: #e0e0e0;
+    font-size: 14dp;
+}
+
+.btn {
+    height: 36dp;
+    padding: 8dp 20dp;
+    border-radius: 4dp;
+    font-size: 14dp;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8dp;
+}
+
+.btn-primary {
+    background-color: #3366aa;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #4477bb;
+}
+
+.btn-danger {
+    background-color: #aa3333;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #bb4444;
+}
+
+.status {
+    margin-top: 16dp;
+    padding: 12dp 16dp;
+    background-color: #1e2230;
+    border-radius: 6dp;
+}
+
+.status-label {
+    font-size: 13dp;
+    color: #8899aa;
+    margin-bottom: 4dp;
+}
+
+.status-value {
+    font-size: 16dp;
+    font-weight: bold;
+}
+
+.status-disconnected {
+    color: #888888;
+}
+
+.status-server {
+    color: #44bb44;
+}
+
+.status-client {
+    color: #4488ee;
+}
+
+.status-listenserver {
+    color: #bbbb44;
+}

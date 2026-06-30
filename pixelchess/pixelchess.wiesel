@@ -1,0 +1,20 @@
+{
+  "editor_camera": {
+    "fov": 60.0,
+    "mode": 0,
+    "pitch": 34.1038932800293,
+    "position": [
+      -0.3181639015674591,
+      1.781756043434143,
+      -1.2665249109268188
+    ],
+    "sensitivity": 160.0,
+    "speed": 10.0,
+    "yaw": 17.805845260620117,
+    "zoom_2d": 5.0
+  },
+  "engine_version": "2026.4.1",
+  "last_scene": "edbb4e6c-1696-4e0a-8573-5c9fe262e63a",
+  "name": "pixelchess",
+  "version": 1
+}

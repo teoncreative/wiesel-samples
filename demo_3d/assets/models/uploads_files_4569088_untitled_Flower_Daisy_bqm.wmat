@@ -1,0 +1,17 @@
+{
+  "color_tint": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "double_sided": true,
+  "metallic": 0.0,
+  "name": "uploads_files_4569088_untitled_Flower_Daisy_bqm",
+  "roughness": 0.8999999761581421,
+  "specular": 0.07999999821186066,
+  "textures": {
+    "diffuse": "d3ba743c-458c-40f7-a914-ddff79ed4735"
+  },
+  "version": 1
+}

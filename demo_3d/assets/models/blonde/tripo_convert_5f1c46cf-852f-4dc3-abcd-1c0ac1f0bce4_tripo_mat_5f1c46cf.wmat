@@ -1,0 +1,16 @@
+{
+  "color_tint": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "metallic": 0.0,
+  "name": "tripo_mat_5f1c46cf",
+  "roughness": 0.8999999761581421,
+  "specular": 0.07999999821186066,
+  "textures": {
+    "diffuse": "489f56ca-a2e4-4405-b531-ce5b3c969f86"
+  },
+  "version": 1
+}

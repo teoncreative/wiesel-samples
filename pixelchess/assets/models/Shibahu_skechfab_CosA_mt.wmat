@@ -1,0 +1,13 @@
+{
+  "color_tint": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "metallic": 0.0,
+  "name": "CosA_mt",
+  "roughness": 0.5527864098548889,
+  "specular": 0.07999999821186066,
+  "version": 1
+}

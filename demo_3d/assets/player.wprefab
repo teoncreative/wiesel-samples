@@ -1,0 +1,83 @@
+{
+  "prefab_version": 1,
+  "root": {
+    "Behaviors": [
+      {
+        "fields": {
+          "camRotX": 0.0,
+          "camRotY": 0.0,
+          "jumpForce": 8.0,
+          "mouseSensitivity": 2.0,
+          "moveSpeed": 5.0,
+          "nameTagFont": {
+            "handle": "c7da0f57-eb50-48fb-9277-2ba20f864148",
+            "type": "Font"
+          }
+        },
+        "name": "PlayerScript"
+      }
+    ],
+    "BoxCollider": {
+      "collision_group": 1,
+      "half_extents": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "is_one_way": false,
+      "is_trigger": false,
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MeshRenderer": {
+      "enable_rendering": true,
+      "mesh_index": 0,
+      "model_handle": "00000000-0000-4000-8000-000000000005",
+      "receive_shadows": true
+    },
+    "NetworkIdentity": {
+      "authority": 1
+    },
+    "RigidBody": {
+      "angular_damping": 0.05000000074505806,
+      "friction": 0.5,
+      "linear_damping": 0.5,
+      "lock_position_x": false,
+      "lock_position_y": false,
+      "lock_position_z": false,
+      "lock_rotation_x": true,
+      "lock_rotation_y": true,
+      "lock_rotation_z": true,
+      "mass": 1.0,
+      "restitution": 0.0,
+      "type": 2
+    },
+    "Transform": {
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "position": [
+        -0.28004419803619385,
+        1.3193020820617676,
+        -0.9999921321868896
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.9999365210533142
+      ]
+    },
+    "name": "Player",
+    "uuid": "d29a222c-cc29-4d17-a642-316034ab1e3c"
+  }
+}
